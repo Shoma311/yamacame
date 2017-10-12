@@ -1,14 +1,15 @@
 h1{
   background-color: white;/*#C0C0C0*/;
   color: black;
-  font-size: 130px;
+  font-size: 60px;
   /*border-bottom: solid 3px black;*/
   text-align: center;
   font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;*/
 
   font-weight:200px;
   margin: 30px;
-  padding: 80px;
+  padding: 50px;
+
 }
 
 /*
@@ -23,18 +24,16 @@ div.PhotoBox {
    float: left;              /* A1 */
    position: relative;       /* A2 */
    overflow: hidden;         /* A3 */
-   margin: 50px 0px 80px 0px;/* A4:隣接画像との余白量 */
-   width: 250px;            /* A5:画像の横幅 */
-   height: 250px;           /* A6:画像の高さ */
-   margin-left: 120px;
-
-
+   margin: 50px 0px 40px 0px;/* A4:隣接画像との余白量 */
+   width: 150px;            /* A5:画像の横幅 */
+   height: 150px;           /* A6:画像の高さ */
+   margin-left: 140px;
 }
 .photo{
-  width: 250px;
-  height: 250px;
-  max-width: 250px;
-  max-height: 250px;
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
 }
 .photo:hover {
    opacity: 0.6;
@@ -44,8 +43,8 @@ div.PhotoBox {
 div.PhotoBox div.SlideBox {
    position: absolute;       /* B1 */
    left: 0px;                /* B2 */
-   top: 250px;              /* B3:画像の高さに合わせる */
-   width: 250px;            /* B4:画像の横幅に合わせる */
+   top: 150px;              /* B3:画像の高さに合わせる */
+   width: 150px;            /* B4:画像の横幅に合わせる */
    height: 100px;            /* B5:スライドして重ねる領域の高さ */
    background-color: black; /* B6:スライドして重ねる領域の背景色 */
    color: white;            /* B7:スライドして重ねる領域の文字色 */
@@ -54,7 +53,7 @@ div.PhotoBox div.SlideBox {
 
 .PhotoBox .SlideBox .Caption {
    font-weight: normal;; /* 文字の太さ */
-   font-size: 170%;    /* 文字サイズ */
+   font-size: 100%;    /* 文字サイズ */
    margin: 0.8em;     /* 周囲の余白量 */
    text-align: center;
    margin-top: 1.0em;
